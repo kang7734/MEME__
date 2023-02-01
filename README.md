@@ -1,7 +1,7 @@
 # MEME:Multi-Encoder Multi-Expert framework with data augmentation for video retrieval
 (January 25, 2023) First Version
 
-##X-CLIP, CLIP4Clip has their own License and we applied MEME and GPS on top of the code provided by the baseline models.
+## X-CLIP, CLIP4Clip has their own License and we applied MEME and GPS on top of the code provided by the baseline models.
 
 The implementation of paper 
 
