@@ -514,7 +514,7 @@ class CLIP4Clip(CLIP4ClipPreTrainedModel):
         retrieve_logits_multi_coarse = logit_scale * torch.matmul(seq_output_dummy, visual_multi_coarse.t())
 ########
         logits_multi = (retrieve_logits_multi + retrieve_logits_multi_coarse)/2
-        retrieve_logits = (retrieve_logits * 0.35 + retrieve_logits_ * 0.35 + logits_multi * 0.3)
+        retrieve_logits = (retrieve_logits * 0.8 + retrieve_logits_ * 0.1 + logits_multi * 0.1)
 
         return retrieve_logits
 
