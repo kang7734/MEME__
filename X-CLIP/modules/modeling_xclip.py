@@ -493,7 +493,7 @@ class XCLIP(CLIP4ClipPreTrainedModel):
 
         logits_multi = (logit_1 + logit_2)/2
 
-        logits = (logits_multi * 0.3 + logits_fine * 0.35 + logits_coarse * 0.35)
+        logits = (logits_multi * 0.1 + logits_fine * 0.8 + logits_coarse * 0.1)
 
         return logits
 
