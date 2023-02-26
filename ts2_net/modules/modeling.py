@@ -569,10 +569,10 @@ class CLIP4Clip(CLIP4ClipPreTrainedModel):
         sim_matrix_global_multi_coarse = self.get_frame_similarity(sequence_output_dummy, visual_multi_coarse, attention_mask, video_mask)
         
         logit_sim_matrix_semantic_multi = (sim_matrix_semantic_multi + sim_matrix_semantic_multi_coarse)/2
-        sim_matrix_semantic = (sim_matrix_semantic * 0.7 + sim_matrix_semantic_ * 0.25 + logit_sim_matrix_semantic_multi * 0.05)
+        sim_matrix_semantic = (sim_matrix_semantic * 0.35 + sim_matrix_semantic_ * 0.35 + logit_sim_matrix_semantic_multi * 0.3)
 
         logit_sim_matrix_global_multi = (sim_matrix_global_multi + sim_matrix_global_multi_coarse)/2
-        sim_matrix_global = (sim_matrix_global * 0.7 + sim_matrix_global_ * 0.25 + logit_sim_matrix_global_multi * 0.05)
+        sim_matrix_global = (sim_matrix_global * 0.35 + sim_matrix_global_ * 0.35 + logit_sim_matrix_global_multi * 0.3)
 
         return sim_matrix_global, sim_matrix_semantic
         # return retrieve_logits
