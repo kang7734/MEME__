@@ -168,33 +168,6 @@ sh scripts/run_xclip_lsmdc_vit32.sh
 
 
 ## Citation
-@article{Ma2022XCLIP,
-  title={{X-CLIP:}: End-to-End Multi-grained Contrastive Learning for Video-Text Retrieval},
-  author={Yiwei Ma and Guohai Xu and Xiaoshuai Sun and Ming Yan and Ji Zhang and Rongrong Ji},
-  journal={arXiv preprint arXiv:2207.07285},
-  year={2022}
-}
-
-@Article{Luo2021CLIP4Clip,
-  author  = {Huaishao Luo and Lei Ji and Ming Zhong and Yang Chen and Wen Lei and Nan Duan and Tianrui Li},
-  title   = {{CLIP4Clip}: An Empirical Study of CLIP for End to End Video Clip Retrieval},
-  journal = {arXiv preprint arXiv:2104.08860},
-  year    = {2021},
-}
-
-@inproceedings{liu2022ts2net,
-      title={TS2-Net: Token Shift and Selection Transformer for Text-Video Retrieval}, 
-      author={Yuqi Liu and Pengfei Xiong and Luhui Xu and Shengming Cao and Qin Jin},
-      year={2022},
-      booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
-}
-
-@article{liu2022ts2net,
-  title={TS2-Net: Token Shift and Selection Transformer for Text-Video Retrieval},
-  author={Yuqi Liu and Pengfei Xiong and Luhui Xu and Shengming Cao and Qin Jin},
-  year={2022},
-  journal={arXiv preprint arxiv:2207.07852},
-}
 
 
 ## Acknowledge
